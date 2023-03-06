@@ -1,0 +1,42 @@
+#mainHeader{
+    position: relative;
+    top: 30px;
+    font-size: xx-large;
+    color: rgb(125, 222, 222);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#mainHeader:hover{
+    transition: color 1s;
+    color: rgb(41, 113, 137);
+
+}
+#lbl{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#notetxt{
+width: 410px;
+height: 25px;
+font-size: medium;
+}
+#notetxt:hover{
+    transition: padding 1.2s;
+    padding: 7px;
+}
+#add{
+    width: 125px;
+    height: 35px;
+    font-size: medium;
+    background-image: linear-gradient(rgb(50, 88, 171),rgb(190, 148, 233));
+    border-radius: 6px;
+    
+}
+#add:hover{
+   
+    transition: color 1s;
+    color:white;
+    cursor: pointer;
+
+    
+}
